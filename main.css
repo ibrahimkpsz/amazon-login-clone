@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Open Sans", Arial, sans-serif
+}
+
+header {
+    text-align: center;
+}
+
+.sign-in-box {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    padding: 25px;
+    margin: auto;
+}
+
+.sign-in-box h1 {
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+
+.sign-in-box label {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.sign-in-box #email {
+    width:300px;
+    padding: 7px 7px;
+    margin-top: 3px;
+    border-radius: 3px;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.sign-in-box #email:hover {
+    width:300px;
+    padding: 7px 7px;
+    margin-top: 3px;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 128, 31);
+}
+
+.sign-in-box #btn-go {
+    padding: 7px 80px;
+    width:300px;
+    margin-top: 15px;
+    font-size: 13px;
+    background-color: #f1cb6b;
+    border: 1px solid #ab8104;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sign-in-box #btn-go:hover {
+    padding: 7px 80px;
+    width:300px;
+    margin-top: 15px;
+    font-size: 13px;
+    background-color: #f3c654;
+    border: 1px solid #ab8104;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sign-in-box p {
+    line-height: 18px;
+    font-size:12px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 18px 0px 0px;
+    padding: 0px;
+}
+
+.sign-in-box a {
+   font-size: 12px;
+   text-decoration: none;
+   color: rgb(40, 108, 192);
+   font-weight: 500;
+}
+
+.signup-box {
+    text-align: center;
+}
+
+.signup-box h2 {
+    font-size: 12px;
+    font-weight: 300;
+    color: #727272;
+    margin: 15px 0;
+}
+
+.signup-box #btn-signup {
+    width: 350px;
+    padding: 7px;
+    border: 1px solid rgba(84, 84, 84, 0.402);
+    border-radius: 3px;
+    margin-bottom: 25px;
+    color: rgb(18, 18, 18);
+}
+
+.signup-box #btn-signup:hover {
+    width: 350px;
+    padding: 7px;
+    background-color: rgb(220, 219, 219);
+    border: 1px solid rgba(84, 84, 84, 0.402);
+    border-radius: 3px;
+    margin-bottom: 25px;
+    color: rgb(18, 18, 18);
+    cursor: pointer;
+}
+
+.signup-box #btn-signup a{
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+.signup-box #btn-signup a:hover {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+hr {
+    color: rgba(171, 18, 18, 0.035);
+}
+
+#footer a{
+    margin: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: rgb(40, 108, 192);
+}
+
+#footer a:hover{
+    margin: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color: #c28c03;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 11.4px;
+    color: rgb(94, 94, 94);
+}
